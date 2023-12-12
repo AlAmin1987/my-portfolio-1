@@ -43,9 +43,12 @@ padding-top: 20px;
 
 
 /* Banner Section CSS Apply */
+.banner{
+    margin-bottom: 85px;
+}
 .baner-content{
    
-    margin-top: 140px;
+    margin-top: 170px;
    
 }
 .baner-content h1{
@@ -55,7 +58,7 @@ padding-top: 20px;
 .baner-content p{
     color: rgb(9, 80, 231);
     font-size: 25px;
-    margin-left: 15px;
+    margin-left: 30px;
     
     
     
@@ -69,6 +72,7 @@ padding-top: 20px;
         font-family: roboto;
         margin-bottom:10px;
         padding: 8px;
+        border: 2px solid rgb(28, 145, 195);;
         border-radius: 6px;
     
     
@@ -96,11 +100,73 @@ img{
     border-radius: 50%;
     margin-right: 30%;
     margin-top: 100px;
-    margin-right: 120px;
-    border: 3px solid rgb(226, 43, 98)
+   border: 3px solid blue
     
 }
+/*  */
 
+/* About Section CSS Apply */
+
+.about-section{
+    width: 500px;
+    height: 450px;
+margin: 0px auto;
+
+}
+.about-section h1{
+    font-size: 45PX;
+    font-weight: 300;
+    color:2D577E;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.about-section p{
+    color:black ;
+    text-align: center;
+}
+.btn1{
+    border: 2px solid rgb(28, 145, 195);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(236, 227, 232);
+    background-color: rgb(240, 37, 118);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 110px;
+    
+}
+.btn2{
+   
+    border:2px solid rgb(28, 145, 195);
+    border-radius: 8px;
+    border-color: none;;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(236, 227, 232);
+    background-color: rgb(240, 37, 118);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+       
+}
+
+.btn1:hover{
+      background-color: green;
+    color:red;
+    transform: 0.5s;
+    transition: 1.5s;
+    
+}
+ .btn2:hover{
+    background-color: green;
+    color:red;
+    transform: 0.5s;
+    transition: 1.5s;
+    
+}
 
 /* another section CSS */
 
@@ -108,9 +174,10 @@ img{
     box-shadow: 2px 1px 2px rgb(213, 217, 213);
     with: 150px;
     height: 280px;
-    margin-bottom: 150px;
+    margin-bottom: 35px;
     column-gap: 20px;
     padding: 35px;
+    
 
 }
 
@@ -125,22 +192,15 @@ img{
     text-align: justify;
     
 }
-   
-
-
-
-
-
+  
 .another-section{
-margin-top: 120px;
+margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;argin-top: 110px;
       column-gap: 30px;
-  
- 
-    
+      
 }
 .another-section p{
    justify-content: center ;
@@ -150,7 +210,8 @@ margin-top: 120px;
 
 .another-section h1{
     margin-left: 110px;
-    color: rgb(240, 37, 118);
+    margin-top: 50px;
+    color: 2D577E;
 }
 button{
     background-color: rgb(240, 37, 118);
@@ -166,5 +227,27 @@ button{
     margin-left: 160px
     ;
 }
+            /*           */
 
-/
+/* Service Section CSS Apply */
+
+.Service-section div h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: 2D577E;
+    font-weight: 100;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+}   
+
+.div{
+    border: 1px solid rgb(28, 145, 195);
+    padding: 25px;
+}
