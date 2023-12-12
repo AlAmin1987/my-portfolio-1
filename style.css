@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Navbar CSS Apply Here*/
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(45, 87, 126);
+    padding: 15px;
+}
+.header-item{
+    font-size: 40px;
+    color: rgb(240, 5, 169);
+    padding-bottom:  15px;
+}
+.menu-item nav ul li{
+    list-style:  none;
+
+}
+
+.menu-item nav ul li a{
+font-size: 25px;
+padding: 20px;
+gap: 20px;
+text-decoration: none;
+color: F02576;
+padding-top: 20px;
+}
+.menu-item nav ul li a button{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border: 1px solid rgb(255, 30, 120);
+    border-radius: 4px;
+}
+
+
+/* Banner Section CSS Apply */
+.baner-content{
+   
+    margin-top: 140px;
+   
+}
+.baner-content h1{
+    color: rgb(222, 14, 125);
+    margin-bottom: 10px;
+}
+.baner-content p{
+    color: rgb(9, 80, 231);
+    font-size: 25px;
+    margin-left: 15px;
+    
+    
+    
+    
+}
+
+     button {
+        background-color: rgb(240, 37, 118);
+        color: blanchedalmond;
+        font-size: 18px;
+        font-family: roboto;
+        margin-bottom:10px;
+        padding: 8px;
+        border-radius: 6px;
+    
+    
+    }
+
+    button:hover{
+        background-color: green;
+        color:red;
+        transform: 0.5s;
+        transition: 1.2s;
+        
+    }
+    .contact{
+        margin-left: 75px;
+    }
+
+.banner{
+    display: flex;
+    justify-content:space-around;
+    
+}
+img{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-right: 30%;
+    margin-top: 100px;
+    margin-right: 120px;
+    border: 3px solid rgb(226, 43, 98)
+    
+}
+
+
+/* another section CSS */
+
+.div-1,.div-2,.div-3{
+    box-shadow: 2px 1px 2px rgb(213, 217, 213);
+    with: 150px;
+    height: 280px;
+    margin-bottom: 150px;
+    column-gap: 20px;
+    padding: 35px;
+
+}
+
+.div-1.div-2  h1{
+   margin: 0 auto;
+    
+    
+}
+      
+
+.div-1,.div-2, .div-3 p {
+    text-align: justify;
+    
+}
+   
+
+
+
+
+
+.another-section{
+margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;argin-top: 110px;
+      column-gap: 30px;
+  
+ 
+    
+}
+.another-section p{
+   justify-content: center ;
+   margin-top: 15px;
+   color: rgb(3, 3, 3) !important;
+}
+
+.another-section h1{
+    margin-left: 110px;
+    color: rgb(240, 37, 118);
+}
+button{
+    background-color: rgb(240, 37, 118);
+    color: blanchedalmond;
+    font-size: 18px;
+    font-family: roboto;
+     margin-top: 20px;
+    margin-left: 150px;
+    padding: 8px;
+    border-radius: 6px;
+}
+.div-3 button{
+    margin-left: 160px
+    ;
+}
+
+/
