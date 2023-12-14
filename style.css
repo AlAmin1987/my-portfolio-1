@@ -63,7 +63,6 @@ padding-top: 20px;
     
     
     
-    
 }
 
      button {
@@ -88,6 +87,15 @@ padding-top: 20px;
     }
     .contact{
         margin-left: 75px;
+    }
+
+    span i{
+        display: inline;
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: 10px;
+        gap: 10px;
+        
     }
 
 .banner{
