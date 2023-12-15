@@ -104,12 +104,12 @@ padding-top: 20px;
     justify-content:space-around;
     
 }
-img{
+.baner-image img{
     width: 260px;
     height: 260px;
-    border-radius: 50%;
+    border-radius: 50% !important;
     margin-right: 30%;
-    margin-top: 100px;
+    margin-top: 135px;
    border: 3px solid blue
     
 }
@@ -264,6 +264,10 @@ button{
 
 /* Service Section CSS Apply */
 
+.Service-section {
+    margin-top: 150px;
+}
+
 .Service-section div h1{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -271,6 +275,8 @@ button{
     color: 2D577E;
     font-weight: 100;
 }
+
+
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -280,6 +286,17 @@ button{
     
 }   
 
+.parent .div span i{
+   margin-left: 200px;
+   color: rgb(11, 99, 90);
+   margin-bottom: 20px;
+}
+.parent h3{
+    text-align: center;
+    color: F02576;
+    margin-bottom: 10px;
+}
+
 .div{
     border: 1px solid rgb(28, 145, 195);
     padding: 25px;
@@ -287,17 +304,20 @@ button{
 
 /* My Recent Project CSS */
 .Blog-section{
-    width: 950px;
-    height: 700px;
+    width: 1080px;
+    height: 750px;
     text-align: center;
-  margin: 80px auto;
+  margin: -150px auto;
+  padding-top: 30px;
+  box-shadow: -2px 5px 9px rgba(94, 17, 145, 0.344);
    
    }
-   .my-blog-text h3{
-    color:  rgb(133, 7, 49);
+   .my-blog-text h1{
+    color:  rgb(28, 145, 195);
    }
    .my-blog-text h5{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     letter-spacing: 4px;
     color: navy;
   
@@ -306,23 +326,25 @@ button{
    .imgage-blog-page{
      display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid:3px;
     box-sizing: border-box;
-   
    
    }
   
    
-  .img-blog img{
+  .img-blog img {
+    display: grid;
+    grid-template-columns: (repeat(1fr));
+    margin-left: 15px;
+    padding: 10px;
     width: 300px;
     height: 280px;
     transition: .5s;
-  
-  }
+   grid-gap: 10px;}
+
   .img-blog img:hover{
     transform:scaleY(1.1);
+   
   }
-  
   
   /* Contact-Area CSS */
  
@@ -345,7 +367,7 @@ button{
   }
   .input-from input{
     margin-top: px;
-    padding: 10px 35px;
+    padding: 10px 60px;
     border: 2px solid deeppink;;
     border-radius: 6px;
     color: #ffffff ;
@@ -378,3 +400,9 @@ button{
     cursor: pointer;
 }
   
+/*  Footer Section CSS */
+
+.footer{
+    text-align: center;
+    margin-bottom: 35px;
+}
